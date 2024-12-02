@@ -68,14 +68,14 @@ public class Game {
 
             int filajugador = 0;
             // Pedir el número 
-            System.out.println("Introduce la fila (1-5): ");
+            System.out.println("Introdueix la fila (1-5): ");
 
             while (filajugador == 0) {
                 if (in.hasNextInt()) {
                     filajugador = in.nextInt();
                 } else {
                     in.next();
-                    System.out.println("Tiene que ser un entero entre el 1 y el 5:");
+                    System.out.println("Ha de ser un sencer entre l'1 i el 5:");
                 }
                 in.nextLine();
             }
