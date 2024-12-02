@@ -51,7 +51,7 @@ public class Game {
                     filajugador = in.nextInt();
                 } else {
                     in.next();
-                    System.out.println("Tiene que ser un entero entre el 1 y el 5:");
+                    System.out.println("Tiene que ser un entero entre el 1 y el 5: ");
                 }
                 in.nextLine();
             }
